@@ -1,0 +1,47 @@
+{
+  "name": "vibe-verse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.1.1",
+    "@next/mdx": "^16.0.1",
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "cookie": "^2.0.1",
+    "framer-motion": "^12.23.24",
+    "gray-matter": "^4.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.552.0",
+    "next": "16.0.1",
+    "next-mdx-remote": "^5.0.0",
+    "next-themes": "^0.4.6",
+    "postcss": "^8.5.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.16",
+    "autoprefixer": "^10.5.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "prisma": "^6.19.3",
+    "tailwindcss": "^4.1.17"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.11.1": true,
+    "esbuild@0.25.11": true,
+    "sharp@0.34.4": true,
+    "@prisma/engines@6.19.3": true,
+    "prisma@6.19.3": true,
+    "@prisma/client@6.19.3": true
+  }
+}

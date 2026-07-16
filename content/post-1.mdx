@@ -1,0 +1,26 @@
+---
+title: "Building Your API Stack"
+date: "Feb 25, 2023"
+readTime: "7 min read"
+tags: ["Development", "API", "Backend"]
+image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67"
+---
+
+# Building Your API Stack
+
+APIs are how applications talk to each other.  
+Building a strong API stack means balancing performance, reliability, and clarity.
+
+## Core Layers
+1. Routing
+2. Authentication
+3. Business Logic
+4. Database Persistence
+
+## Example Express API
+
+```js
+app.get("/users", async (req, res) => {
+  const users = await db.users.findMany();
+  res.json(users);
+});
